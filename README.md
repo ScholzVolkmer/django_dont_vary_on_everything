@@ -14,7 +14,7 @@ To use it you *must* put ``RemoveVaryHeadersMiddleware`` in your ``MIDDLEWARE_CL
     MIDDLEWARE_CLASSES = ( 
         ….
         'django.middleware.cache.UpdateCacheMiddleware',
-        'django_dont_vary_on.middleware.RemoveVaryHeadersMiddleware',
+        'django_dont_vary_on_everything.middleware.RemoveVaryHeadersMiddleware',
         …
     )
 
